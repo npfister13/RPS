@@ -27,3 +27,4 @@ def game_time():
     else:
         print("It's a tie!\n")
         return ("t")
+
