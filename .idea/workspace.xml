@@ -18,7 +18,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/RPS" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1YPqTJBUHtOYnPN8barPdlk16hl" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -29,6 +29,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunManager" selected="Python.main">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
@@ -97,22 +98,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1982.0.1858.1080@0.0.1920.1040" timestamp="1582857539695" />
-    <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1582861972348">
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1582891371320">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1982.0.1858.1080@0.0.1920.1040" timestamp="1582861972348" />
-    <state width="1899" height="282" key="GridCell.Tab.0.center" timestamp="1582861972348">
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040/1982.0.1858.1080@0.0.1920.1040" timestamp="1582891371320" />
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1582891515719">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1982.0.1858.1080@0.0.1920.1040" timestamp="1582861972348" />
-    <state width="1899" height="282" key="GridCell.Tab.0.left" timestamp="1582861972348">
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1982.0.1858.1080@0.0.1920.1040" timestamp="1582891515719" />
+    <state width="1899" height="282" key="GridCell.Tab.0.center" timestamp="1582891515718">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1982.0.1858.1080@0.0.1920.1040" timestamp="1582861972348" />
-    <state width="1899" height="282" key="GridCell.Tab.0.right" timestamp="1582861972348">
+    <state width="1899" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1982.0.1858.1080@0.0.1920.1040" timestamp="1582891515718" />
+    <state width="1899" height="282" key="GridCell.Tab.0.left" timestamp="1582891515718">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1982.0.1858.1080@0.0.1920.1040" timestamp="1582861972348" />
+    <state width="1899" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1982.0.1858.1080@0.0.1920.1040" timestamp="1582891515718" />
+    <state width="1899" height="282" key="GridCell.Tab.0.right" timestamp="1582891515719">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1982.0.1858.1080@0.0.1920.1040" timestamp="1582891515719" />
     <state width="1899" height="348" key="GridCell.Tab.1.bottom" timestamp="1582857638691">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -129,5 +134,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/1982.0.1858.1080@0.0.1920.1040" timestamp="1582857638690" />
+    <state x="461" y="162" key="SettingsEditor" timestamp="1582891372074">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040/1982.0.1858.1080@0.0.1920.1040" timestamp="1582891372074" />
   </component>
 </project>

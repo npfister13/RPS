@@ -2,7 +2,7 @@ import random
 
 
 def game_time():
-    user_input = input("Rock, paper, or scissors: ")
+    user_input = input("r, p, or s: ")
     rand = random.randrange(1, 3)
     valid_inputs = "rpsRPS"
 
@@ -10,11 +10,9 @@ def game_time():
     opponent_input = plays[rand]
 
     # check if valid input
-    '''for char in valid_inputs:
-        if user_input == char:
-            break
-    
-    '''
+    while user_input not in ['r','p','s']:
+        user_input = input("Invalid input. r, p, or s: ")
+
     print("You:", user_input)
     print("Opponent:", opponent_input)
 
