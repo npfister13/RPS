@@ -1,7 +1,6 @@
 import random
 
 
-
 class Score:
     def __init__(self):
         self.user_score = 0
@@ -9,16 +8,12 @@ class Score:
         self.user_wins = 0
         self.opponent_wins = 0
 
-def main():
-    print("Welcome to Rock, Paper, Scissors!\nHow much would you like to play? ")
-    print("Input any integer to play.\nEnter 0 to quit.")
 
-    while True:
-        try:
-            game_length = int(input(">"))
-            break
-        except ValueError:
-            print("Please enter any integer above 0 to play.")
+def main():
+    print("Welcome to Rock, Paper, Scissors!\n\nHow much would you like to play? ")
+    print("Input the score limit (any integer).\nEnter 0 to quit.")
+
+    game_length = check_input()
 
     score = Score()
     user_score = score.user_score
@@ -27,6 +22,7 @@ def main():
     opponent_wins = score.opponent_wins
 
     while game_length != 0:
+
         while (user_score < game_length) and (opponent_score < game_length):
             winner = game_time()
             if winner == "u":
@@ -50,9 +46,24 @@ def main():
 
         print("\n")
         print("If you want to continue playing, enter any integer. Otherwise, enter 0 to exit. ")
+        while True:
+            try:
+                game_length = int(input(">"))
+                break
+            except ValueError:
+                print("Please enter any integer above 0 to play.")
         user_score = 0
         opponent_score = 0
 
+
+def check_input():
+    while True:
+        try:
+            val = int(input(">"))
+            break
+        except ValueError:
+            print("Please enter any integer above 0 to play.")
+    return val
 
 
 def user_choice():
@@ -64,12 +75,6 @@ def opponent_choice():
     opponents_choice = random.choice(['r', 'p', 's'])
     return opponents_choice
 
-
-def check_input(selection):
-    if selection not in ['r','p','s']:
-        print("Invalid input. Try again.")
-
-    return selection
 
 
 def game_time():
@@ -95,6 +100,7 @@ def game_time():
     else:
         print("It's a tie!\n")
         return ("t")
+
 
 main()
 
