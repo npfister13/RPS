@@ -75,7 +75,6 @@ def opponent_choice():
     return opponents_choice
 
 
-
 def game_time():
     users_choice = user_choice().lower()
     opponents_choice = opponent_choice()
@@ -91,14 +90,14 @@ def game_time():
     if (users_choice == "r" and opponents_choice == "p") or (users_choice == "s" and opponents_choice == "r") or (
             users_choice == "p" and opponents_choice == "s"):
         print("Opponent wins!\n")
-        return ("o")
+        return "o"
     elif (users_choice == "r" and opponents_choice == "s") or (users_choice == "p" and opponents_choice == "r") or (
             users_choice == "s" and opponents_choice == "p"):
         print("You win!\n")
-        return ("u")
+        return "u"
     else:
         print("It's a tie!\n")
-        return ("t")
+        return "t"
 
 
 main()
