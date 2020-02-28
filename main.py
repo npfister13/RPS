@@ -46,23 +46,22 @@ def main():
 
         print("\n")
         print("If you want to continue playing, enter any integer. Otherwise, enter 0 to exit. ")
-        while True:
-            try:
-                game_length = int(input(">"))
-                break
-            except ValueError:
-                print("Please enter any integer above 0 to play.")
+        game_length = check_input()
         user_score = 0
         opponent_score = 0
+    print("Bye!")
 
 
 def check_input():
     while True:
         try:
             val = int(input(">"))
-            break
+            if val < 0:
+                print("Please enter any non-float integer above 0 to play.")
+            else:
+                break
         except ValueError:
-            print("Please enter any integer above 0 to play.")
+            print("Please enter any non-float integer above 0 to play.")
     return val
 
 
@@ -103,5 +102,3 @@ def game_time():
 
 
 main()
-
-print("bye!")
